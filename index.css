@@ -242,17 +242,24 @@ select option:hover{background-color:blue;}
 /* Responsive queries */
 
 @media only screen and (min-width:250px) and (max-width:500px){
+
 #main-cont{
 overflow-x: hidden;
     
     
 }
+.clock{
+    width: 100%;
+    left: 2px;
+}
 .h1{
-  top: 350px;
-  left:-43px;
+    top: 350px;
+    left: -5px;
+    width: 100%;
 }
 .box2{
-    width: 356px;
+    width: 100%;
+    left :4px;
 }
 .box1{
     width: 320px;
@@ -264,8 +271,8 @@ overflow-x: hidden;
 .parent{
     text-align: center;
     align-items: center;
-    top: 100px;
-    left: 10px;
+    top: 110px;
+    left: 5px;
     width: 359px;
 }
 .Wakeup{
@@ -316,7 +323,7 @@ overflow-x: hidden;
  
     top: 800px;
     left: 2px;
-    width: 377px;
+    width: 360px;
     display: flex;
 }
 
